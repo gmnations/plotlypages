@@ -1,4 +1,4 @@
-d3.json("data/data.json").then((importedData) => {
+
 
     // console.log(importedData);
     var data = importedData;/**
@@ -97,4 +97,4 @@ d3.json("data/data.json").then((importedData) => {
 
   // Add event listener for submit button
   d3.select("#submit").on("click", handleSubmit);
-});
+
